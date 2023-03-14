@@ -1,3 +1,5 @@
+// noinspection ExceptionCaughtLocallyJS
+
 import * as utils from './utils.js'
 import { DOCKER_SETUP_MANUAL_URL, MONGODB_SETUP_MANUAL_URL, NODE_VERSION, REPO_URI } from './constants.js'
 import chalk from 'chalk'
@@ -12,7 +14,6 @@ export async function run() {
             if (!continueInstallation) {
                 console.log(chalk.yellow('❌ Installation canceled'))
                 return
-                // process.exit(0);
             }
         }
 
@@ -51,7 +52,6 @@ export async function run() {
         console.log(`Installing dependencies in ${chalk.green(cloneDir)}...`)
         await utils.installDependencies(cloneDir)
 
-        // const pkg = JSON.parse(fs.readFileSync(path.join(installDir, 'package.json')).toString());
         console.log(chalk.green.bold(`✔ Syngrisi '${getSyngrisiVersion(installDir)}' version has been successfully installed\n`))
         console.log(chalk.whiteBright.bold('Run "npm start" if you want to run it natively (requires MongoDB), or "docker-compose up" to run it in a Docker container (requires Docker).\n'
             + 'Read "README.md" for detailed configuration information.\n'))
