@@ -7,4 +7,12 @@ README.md
 resemble.spec.js
 .eslintrc.cjs
 vitest.config.ts
+src
 /example/
+.gitignore
+.editorconfig
+.nvmrc
+.github
+.npmignore
+tsconfig.json
+tsconfig.tsbuildinfo

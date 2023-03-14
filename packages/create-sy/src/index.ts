@@ -11,7 +11,14 @@ export async function run() {
 
         if (!args.force) {
             const continueInstallation = await utils.prompt('Do you want to continue with the installation?')
-            console.log('👹👹', continueInstallation)
+            console.log(process.cwd())
+            console.log(process.cwd())
+            console.log(process.cwd())
+            console.log(process.version)
+            console.log(process.version)
+            console.log(process.version)
+            console.log(process.version)
+            console.log('👹👹👹👹👹👹👹👹👹👹', continueInstallation)
             console.log('👹👹', continueInstallation)
             console.log('👹👹', continueInstallation)
             console.log('👹👹', continueInstallation)
