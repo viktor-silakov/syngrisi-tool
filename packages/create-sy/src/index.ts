@@ -11,6 +11,10 @@ export async function run() {
 
         if (!args.force) {
             const continueInstallation = await utils.prompt('Do you want to continue with the installation?')
+            console.log('👹👹', continueInstallation)
+            console.log('👹👹', continueInstallation)
+            console.log('👹👹', continueInstallation)
+            console.log('👹👹', continueInstallation)
             if (!continueInstallation) {
                 console.log(chalk.yellow('❌ Installation canceled'))
                 return

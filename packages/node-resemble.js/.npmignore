@@ -5,4 +5,6 @@ bower.json
 README.md
 .idea
 resemble.spec.js
+.eslintrc.cjs
+vitest.config.ts
 /example/
