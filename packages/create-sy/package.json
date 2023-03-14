@@ -1,6 +1,6 @@
 {
   "name": "create-sy",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Install and setup Syngrisi",
   "author": {
     "name": "Viktar Silakou",
@@ -69,5 +69,5 @@
     "minimist": "^1.2.8",
     "semver": "^7.3.8"
   },
-  "gitHead": "c0a858cccb2a1c71c8c08aa518b3fd49c846e00f"
+  "gitHead": "64e648fa000fee4b092b2a3eff770ac09bea258d"
 }
