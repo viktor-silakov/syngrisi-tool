@@ -5,7 +5,8 @@
   "main": "resemble.js",
   "scripts": {
     "test": "gulp test",
-    "build": "echo build"
+    "build": "echo build",
+    "release": "release-it --github.release"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,5 @@
     "gulp-jasmine": "4.0.0",
     "gulp-util": "3.0.7"
   },
-  "gitHead": "3d0d21f37124805c2e81c6fe402712878dfa7554"
+  "gitHead": "c0fd83e24554e8720fc20c2ea9632580d6a70373"
 }
