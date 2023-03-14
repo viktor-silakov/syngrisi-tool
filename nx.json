@@ -14,7 +14,8 @@
     "build": {
       "dependsOn": [
         "^build"
-      ]
+      ],
+      "outputs": ["{workspaceRoot}/dist/**/*", "{projectRoot}/packages/node-resemble.js/**/*"]
     },
     "test": {
     }
