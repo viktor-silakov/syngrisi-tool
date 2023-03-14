@@ -1,6 +1,6 @@
 {
-  "name": "@syngrisi/node_resemble.js",
-  "version": "0.0.13",
+  "name": "@syngrisi/node_resemble",
+  "version": "0.0.14",
   "description": "Image analysis and comparison for nodejs",
   "main": "resemble.js",
   "scripts": {
@@ -37,5 +37,5 @@
     "gulp-jasmine": "4.0.0",
     "gulp-util": "3.0.7"
   },
-  "gitHead": "64e648fa000fee4b092b2a3eff770ac09bea258d"
+  "gitHead": "539e105a865ce457a411e9212639acc3d69a1ff4"
 }
