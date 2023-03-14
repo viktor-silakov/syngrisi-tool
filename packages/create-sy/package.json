@@ -1,6 +1,6 @@
 {
   "name": "create-sy",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Install and setup Syngrisi",
   "author": {
     "name": "Viktar Silakou",
@@ -67,8 +67,8 @@
     "commander": "^10.0.0",
     "cross-spawn": "^7.0.3",
     "has-yarn": "^3.0.0",
+    "minimist": "^1.2.8",
     "read-pkg-up": "^9.1.0",
-    "semver": "^7.3.8",
-    "minimist": "^1.2.8"
+    "semver": "^7.3.8"
   }
 }
