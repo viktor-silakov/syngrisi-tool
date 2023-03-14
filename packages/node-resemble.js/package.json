@@ -35,5 +35,6 @@
     "gulp": "4.0.2",
     "gulp-jasmine": "4.0.0",
     "gulp-util": "3.0.7"
-  }
+  },
+  "gitHead": "339e8f21544682455c26b377dfab6f488130a434"
 }
