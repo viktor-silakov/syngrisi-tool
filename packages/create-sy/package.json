@@ -1,6 +1,6 @@
 {
   "name": "create-sy",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Install and setup Syngrisi",
   "author": {
     "name": "Viktar Silakou",
@@ -10,7 +10,8 @@
   "homepage": "https://github.com/viktor-silakov/syngrisi-tool",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viktor-silakov/syngrisi-tool.git"
+    "url": "git+https://github.com/viktor-silakov/syngrisi-tool.git",
+    "directory": "packages/create-sy"
   },
   "bugs": {
     "url": "https://github.com/viktor-silakov/syngrisi-tool/issues"
@@ -69,5 +70,5 @@
     "minimist": "^1.2.8",
     "semver": "^7.3.8"
   },
-  "gitHead": "539e105a865ce457a411e9212639acc3d69a1ff4"
+  "gitHead": "d31f3527d83b0713a1ec132ef3dfd87e495c7ab0"
 }

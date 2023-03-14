@@ -1,6 +1,6 @@
 {
-  "name": "@syngrisi/node_resemble",
-  "version": "0.0.14",
+  "name": "@syngrisi/node-resemble.js",
+  "version": "0.0.15",
   "description": "Image analysis and comparison for nodejs",
   "main": "resemble.js",
   "scripts": {
@@ -10,7 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viktor-silakov/syngrisi-tool.git"
+    "url": "git+https://github.com/viktor-silakov/syngrisi-tool.git",
+    "directory": "packages/node-resemble.js"
   },
   "keywords": [
     "comparison",
@@ -37,5 +38,5 @@
     "gulp-jasmine": "4.0.0",
     "gulp-util": "3.0.7"
   },
-  "gitHead": "539e105a865ce457a411e9212639acc3d69a1ff4"
+  "gitHead": "d31f3527d83b0713a1ec132ef3dfd87e495c7ab0"
 }
